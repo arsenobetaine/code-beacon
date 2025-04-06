@@ -3,15 +3,15 @@
 	"id": "code-beacon",
 	"version": "${version}",
 	"name": "Code Beacon",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Code Beacon by Sahand Soleimani for Hack Craft",
 	"authors": [
-		"Me!"
+		"Sahand Soleimani"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://arsenobetaine.dev",
+		"sources": "https://github.com/arsenobetaine/code-beacon"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/code-beacon/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"dev.arsenobetaine.codebeacon.CodeBeaconDataGenerator"
+		],
+		"client": [
+			"dev.arsenobetaine.codebeacon.CodeBeaconClient"
 		]
 	},
 	"mixins": [
